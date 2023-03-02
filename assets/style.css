@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 65rem;
+    margin: auto;
+    background-color: #E7E9EB;
+}
+
+h1{
+    text-align: center;
+    color: #E53170;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 2rem;
+}
