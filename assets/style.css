@@ -7,7 +7,7 @@
 .container{
     max-width: 65rem;
     margin: auto;
-    background-color: #E7E9EB;
+    background-color: white;
 }
 
 h1{
@@ -21,7 +21,43 @@ h1{
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2rem;
     font-weight: 400;
     font-size: 15px;
-    padding-top: 2rem;
+} 
+
+main{
+   margin: auto;
+}
+
+.box{
+    width: calc(65rem / 3);
+    background-color: #0F0E17;
+    margin-top: 2rem;
+    color: white;
+    float: left;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    float: left;
+    max-width: 100px;
+    padding-right: 1rem;
+}
+
+h3{
+    padding: 0.4rem;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+span{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #50B9DE;
+    font-size: 13px;
 }
