@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+        font-family:'Fredoka', sans-serif; ;
+}
+
 .container{
     max-width: 65rem;
     margin: auto;
@@ -13,51 +17,56 @@
 h1{
     text-align: center;
     color: #E53170;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
     padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 2rem;
-    font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9rem;
 } 
 
+/*parte centrale dell'esercizio*/
+
 main{
-   margin: auto;
+    padding-top: 3rem;
 }
 
-.box{
-    width: calc(65rem / 3);
-    background-color: #0F0E17;
-    margin-top: 2rem;
+.clearfix{
+    width: calc(100% / 3 - 22px);
+    background-color: black;
     color: white;
     float: left;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
 }
 
 img{
+    width: 90px;
     float: left;
-    max-width: 100px;
-    padding-right: 1rem;
-}
+} 
 
 h3{
-    padding: 0.4rem;
-    font-size: 15px;
-    font-weight: 800;
+    float: left;
+    padding-left: 15px;
+    margin-top: 10px;
 }
 
 span{
-    font-size: 14px;
+    display: block;
+    float: left;
+    padding-left: 15px;
+    margin-top: 10px;
 }
 
 a{
     text-decoration: none;
+    float: left;
+    padding-left: 15px;
     color: #50B9DE;
-    font-size: 13px;
+    margin-top: 5px;
 }
